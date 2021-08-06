@@ -11,6 +11,7 @@ h1 {
   background: linear-gradient(to right, #ff1493 20%, #ffb347 80%);
   font-size: 50px;
   line-height: 2em;
+  color: rgb(247, 247, 234);
 }
 .b1,
 .b2 {
@@ -60,4 +61,76 @@ h1 {
 .buttons {
   margin-top: 35px;
   text-align: center;
+}
+
+table {
+  margin-left: 40px;
+  text-align: center;
+  border-collapse: collapse;
+  margin-top: 55px;
+  cursor: pointer;
+  display: inline-block;
+}
+td {
+  width: 100px;
+  height: 100px;
+  border: 6px solid #ff1493;
+}
+td::after {
+  content: "";
+  display: block;
+}
+td:first-of-type {
+  border-left-color: transparent;
+  border-top-color: transparent;
+}
+
+td:nth-of-type(2) {
+  border-top-color: transparent;
+}
+
+td:nth-of-type(3) {
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+tr:nth-of-type(3) td {
+  border-bottom-color: transparent;
+}
+
+.play-area {
+  text-align: center;
+}
+
+.switch {
+  display: inline-grid;
+  float: right;
+  position: absolute;
+  margin-top: 156px;
+  margin-left: 90px;
+}
+
+.but1 {
+  background-color: deepPink;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.but0 {
+  background-color: #a9a9a9;
+  color: white;
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  outline: none;
 }
