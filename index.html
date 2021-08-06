@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Tic-Tac-Toe</title>
+  </head>
+  <body>
+    <h1 style="text-align: center">Tic Tac Toe</h1>
+    <div class="buttons">
+      <div class="dropdown">
+        <button class="b1" onmouseover="hover()" onmouseout="notHover()">
+          vs Bot
+        </button>
+        <div id="levels">
+          <a
+            href="javascript:easyClicked()"
+            onmouseover="hover()"
+            onmouseout="notHover()"
+            >Easy</a
+          >
+          <a
+            href="javascript:mediumClicked()"
+            onmouseover="hover()"
+            onmouseout="notHover()"
+            >Medium</a
+          >
+          <a
+            href="javascript:hardClicked()"
+            onmouseover="hover()"
+            onmouseout="notHover()"
+            >Impossible</a
+          >
+        </div>
+      </div>
+      <button class="b2" onmouseover="hover1()" onmouseout="notHover1()">
+        vs Friend
+      </button>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
