@@ -1,2 +1,2 @@
 # tic-tac-toe
-Game
+Relive your childhood with this web game
