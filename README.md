@@ -1,2 +1,3 @@
 # tic-tac-toe
-Relive your childhood with this web game which is fun for all ages
+Relive your childhood with this web game 
+Fun for all ages
