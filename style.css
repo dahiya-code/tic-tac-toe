@@ -31,9 +31,10 @@ h1 {
 .dropdown {
   display: inline-block;
   position: relative;
+  border-radius: 3rem;
 }
 .dropdown button {
-  border: none;
+  /* border: none; */
   padding: 8px 16px;
   color: white;
   cursor: pointer;
@@ -42,8 +43,9 @@ h1 {
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  visibility: hidden;
+  /* visibility: hidden; */
   position: absolute;
+  overflow: hidden;
   min-width: 100%;
 }
 .dropdown div a {
@@ -99,22 +101,22 @@ tr:nth-of-type(3) td {
 }
 
 .play-area {
-  text-align: center;
+  text-align: center;  
 }
 
 .switch {
-  display: inline-grid;
-  float: right;
-  position: absolute;
-  margin-top: 156px;
-  margin-left: 90px;
+ display: flex;
+ flex-direction: column;
+ margin-left: 2rem;
+ margin-top: 9.3rem;
 }
 
 .but1 {
-  background-color: deepPink;
+  /* background-color: deepPink; */
   color: white;
   font-size: 20px;
   margin-bottom: 15px;
+  background-color: #a9a9a9;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -122,7 +124,16 @@ tr:nth-of-type(3) td {
   cursor: pointer;
   outline: none;
 }
+.b1:hover{
+  background-color: #ff1493;
 
+}
+.b2:hover{
+  background-color: #ff1493;
+}
+.but1:hover{
+  background-color: #ff1493;
+}
 .but0 {
   background-color: #a9a9a9;
   color: white;
@@ -133,4 +144,11 @@ tr:nth-of-type(3) td {
   border: none;
   cursor: pointer;
   outline: none;
+}
+.but0:hover{
+  background-color: #ff1493;
+}
+.area{
+  display: flex;
+  justify-content: center;
 }

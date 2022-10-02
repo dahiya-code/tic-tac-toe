@@ -48,14 +48,4 @@ const hover = () => {
   //     x.style.backgroundColor = "#C71585";
   //   }
 };
-const notHover = () => {
-  let y = document.getElementById("levels");
-  y.style.visibility = "hidden";
-  //   if (level <= 0) {
-  //     var x = document.getElementById("button1");
-  //     x.style.backgroundColor = "#A9A9A9";
-  //   } else {
-  //     var x = document.getElementById("button1");
-  //     x.style.backgroundColor = "deepPink";
-  //   }
-};
+
