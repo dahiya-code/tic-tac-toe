@@ -48,13 +48,7 @@ h1 {
   overflow: hidden;
   min-width: 100%;
 }
-.dropdown div a {
-  display: block;
-  text-decoration: none;
-  padding: 8px;
-  color: #000;
-  white-space: nowrap;
-}
+
 .dropdown div a:hover {
   background-color: hotPink;
   color: #fff;
@@ -63,6 +57,8 @@ h1 {
 .buttons {
   margin-top: 35px;
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 table {
@@ -151,4 +147,39 @@ tr:nth-of-type(3) td {
 .area{
   display: flex;
   justify-content: center;
+
 }
+
+#levels{
+  display: flex;
+}
+
+/*  */
+/* Dropdown Button */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  border: 2px solid #a9a9a9;
+  border-radius: 1rem;
+width: match-parent;
+  /* min-width: 160px; */
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+/* .dropdown-content a:hover {background-color: #ddd;} */
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
