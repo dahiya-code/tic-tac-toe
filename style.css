@@ -6,6 +6,7 @@
 body,
 html {
   height: 100%;
+  background-color: bisque;
 }
 h1 {
   background: linear-gradient(to right, #ff1493 20%, #ffb347 80%);
@@ -15,7 +16,7 @@ h1 {
 }
 .b1,
 .b2 {
-  background-color: #a9a9a9;
+  background-color: orange;
   border: none;
   color: white;
   width: 120px;
@@ -112,13 +113,13 @@ tr:nth-of-type(3) td {
   color: white;
   font-size: 20px;
   margin-bottom: 15px;
-  background-color: #a9a9a9;
   width: 50px;
   height: 50px;
   border-radius: 100%;
   border: none;
   cursor: pointer;
   outline: none;
+  background-color: orange;
 }
 .b1:hover{
   background-color: #ff1493;
@@ -131,7 +132,7 @@ tr:nth-of-type(3) td {
   background-color: #ff1493;
 }
 .but0 {
-  background-color: #a9a9a9;
+  background-color: orange;
   color: white;
   font-size: 20px;
   width: 50px;
@@ -159,9 +160,9 @@ tr:nth-of-type(3) td {
 .dropdown-content {
   display: none;
   position: absolute;
-  border: 2px solid #a9a9a9;
+  border: 2px solid #db7d3e;
   border-radius: 1rem;
-width: match-parent;
+  width: match-parent;
   /* min-width: 160px; */
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -174,7 +175,10 @@ width: match-parent;
   text-decoration: none;
   display: block;
 }
+footer{
+  text-align: center;
 
+}
 /* Change color of dropdown links on hover */
 /* .dropdown-content a:hover {background-color: #ddd;} */
 
